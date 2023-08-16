@@ -36,6 +36,10 @@
 | Others |  |N |
 
 ## 文档结构说明
-  * Single_Cycle_process  
-      * |-control_unit
+  * Single_Cycle_processor  
+      * control_unit:控制单元
+      * datapath:其他组件
+      * tb:包含测试工程与测试文件
+  * Multi_Cycle_processor  
+      * 未完成 :)  
 
