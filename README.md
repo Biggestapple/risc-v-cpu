@@ -16,6 +16,23 @@
 | :-----| ----: | :----: |
 | lw |  | Y |
 | addi |  | Y |
-
+| xori |  | Y |
+| ori |  | Y |
+| andi |  | Y |
+| sw |  | Y |
+| add |  | Y |
+| sub |  | Y |
+| slt |  | Y |
+| xor |  | Y |
+| or |  | Y |
+| and |  | Y |
+| lui |  | Y |
+| beq |  | Y |
+| bne |  | Y |
+| blt |  | Y |
+| bge |  | Y |
+| jalr |  | Y |
+| jal |  | Y |
+| Others |  |N |
 
 
