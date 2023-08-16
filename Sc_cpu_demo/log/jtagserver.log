@@ -1,0 +1,532 @@
+[Info] [2023-8-16 00:20:36] /***************************Start jtagserver***************************/
+[Info] [2023-8-16 00:20:36] Path: E:/PANGO/PDS_2022.2-Lite/bin
+[Info] [2023-8-16 00:20:36] Version: 118454
+[Debug] [2023-8-16 00:20:36] Add a new user_thread, socket descriptor is 1140 user_thread id is 0000000000004FE8
+[Debug] [2023-8-16 00:20:36] After adding, map size is : 1
+[Debug] [2023-8-16 00:20:36] Add a new user_thread, socket descriptor is 1216 user_thread id is 0000000000004FE8
+[Debug] [2023-8-16 00:20:36] After adding, map size is : 2
+[Debug] [2023-8-16 00:20:36] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2023-8-16 00:20:36] IP address of connecting client is : ::ffff:127.0.0.1IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2023-8-16 00:20:36] Remove the header data from the client, index : 0
+[Debug] [2023-8-16 00:20:36] _total_bytes_size : 158
+[Debug] [2023-8-16 00:20:36] Remove the header data from the client, index : 0
+[Debug] [2023-8-16 00:20:36] _total_bytes_size : 96
+[Debug] [2023-8-16 00:20:36] cmd id :40010cmd name : get_cable_paras
+[Debug] [2023-8-16 00:20:37] cmd operation get_cable_paras releases locker
+[Debug] [2023-8-16 00:20:37] Remove the header data from the client, index : 0
+[Debug] [2023-8-16 00:20:37] _total_bytes_size : 101
+[Debug] [2023-8-16 00:20:37] cmd id :20001cmd name : Open config cable
+[Debug] [2023-8-16 00:20:37] the idcode from the scanning is: 0x10521899
+[Debug] [2023-8-16 00:20:37] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 00:20:37] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 00:20:37] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 00:20:37] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 00:20:37] cmd operation Open config cable releases locker
+[Debug] [2023-8-16 00:20:44] Remove the header data from the client, index : 0
+[Debug] [2023-8-16 00:20:44] _total_bytes_size : 23a
+[Debug] [2023-8-16 00:20:44] cmd id :4e22cmd name : Program
+[Debug] [2023-8-16 00:20:44] the idcode from the scanning is: 0x10521899
+[Debug] [2023-8-16 00:20:44] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 00:20:44] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 00:20:44] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 00:20:44] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 00:20:44] begin to read back config registerregAddr is 4
+[Debug] [2023-8-16 00:20:44] progress bar is 6
+[Debug] [2023-8-16 00:20:44] progress bar is 10
+[Debug] [2023-8-16 00:20:44] progress bar is 15
+[Debug] [2023-8-16 00:20:44] progress bar is 20
+[Debug] [2023-8-16 00:20:44] progress bar is 25
+[Debug] [2023-8-16 00:20:44] progress bar is 30
+[Debug] [2023-8-16 00:20:45] progress bar is 35
+[Debug] [2023-8-16 00:20:45] progress bar is 40
+[Debug] [2023-8-16 00:20:45] progress bar is 45
+[Debug] [2023-8-16 00:20:45] progress bar is 50
+[Debug] [2023-8-16 00:20:45] progress bar is 55
+[Debug] [2023-8-16 00:20:45] progress bar is 60
+[Debug] [2023-8-16 00:20:45] progress bar is 65
+[Debug] [2023-8-16 00:20:45] progress bar is 70
+[Debug] [2023-8-16 00:20:45] progress bar is 75
+[Debug] [2023-8-16 00:20:45] progress bar is 80
+[Debug] [2023-8-16 00:20:45] progress bar is 85
+[Debug] [2023-8-16 00:20:46] progress bar is 90
+[Debug] [2023-8-16 00:20:46] progress bar is 95
+[Debug] [2023-8-16 00:20:46] progress bar is 100
+[Debug] [2023-8-16 00:20:46] the value in the status register is :2096288
+[Debug] [2023-8-16 00:20:46] cmd operation Program releases locker
+[Debug] [2023-8-16 00:21:01] Remove the header data from the client, index : 0
+[Debug] [2023-8-16 00:21:01] _total_bytes_size : 570
+[Debug] [2023-8-16 00:21:01] cmd id :20002cmd name : Program
+[Debug] [2023-8-16 00:21:01] the idcode from the scanning is: 0x10521899
+[Debug] [2023-8-16 00:21:01] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 00:21:01] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 00:21:01] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 00:21:01] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 00:21:01] begin to read back config registerregAddr is 4
+[Debug] [2023-8-16 00:21:01] progress bar is 6
+[Debug] [2023-8-16 00:21:01] progress bar is 10
+[Debug] [2023-8-16 00:21:01] progress bar is 15
+[Debug] [2023-8-16 00:21:01] progress bar is 20
+[Debug] [2023-8-16 00:21:01] progress bar is 25
+[Debug] [2023-8-16 00:21:01] progress bar is 30
+[Debug] [2023-8-16 00:21:01] progress bar is 35
+[Debug] [2023-8-16 00:21:02] progress bar is 40
+[Debug] [2023-8-16 00:21:02] progress bar is 45
+[Debug] [2023-8-16 00:21:02] progress bar is 50
+[Debug] [2023-8-16 00:21:02] progress bar is 55
+[Debug] [2023-8-16 00:21:02] progress bar is 60
+[Debug] [2023-8-16 00:21:02] progress bar is 65
+[Debug] [2023-8-16 00:21:02] progress bar is 70
+[Debug] [2023-8-16 00:21:02] progress bar is 75
+[Debug] [2023-8-16 00:21:02] progress bar is 80
+[Debug] [2023-8-16 00:21:02] progress bar is 85
+[Debug] [2023-8-16 00:21:02] progress bar is 90
+[Debug] [2023-8-16 00:21:03] progress bar is 95
+[Debug] [2023-8-16 00:21:03] progress bar is 100
+[Debug] [2023-8-16 00:21:03] the value in the status register is :2096288
+[Debug] [2023-8-16 00:21:03] cmd operation Program releases locker
+[Debug] [2023-8-16 00:21:15] Remove the header data from the client, index : 0
+[Debug] [2023-8-16 00:21:15] _total_bytes_size : 570
+[Debug] [2023-8-16 00:21:15] cmd id :20002cmd name : Program
+[Debug] [2023-8-16 00:21:15] the idcode from the scanning is: 0x10521899
+[Debug] [2023-8-16 00:21:15] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 00:21:15] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 00:21:15] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 00:21:15] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 00:21:15] begin to read back config registerregAddr is 4
+[Debug] [2023-8-16 00:21:15] progress bar is 6
+[Debug] [2023-8-16 00:21:15] progress bar is 10
+[Debug] [2023-8-16 00:21:15] progress bar is 15
+[Debug] [2023-8-16 00:21:15] progress bar is 20
+[Debug] [2023-8-16 00:21:16] progress bar is 25
+[Debug] [2023-8-16 00:21:16] progress bar is 30
+[Debug] [2023-8-16 00:21:16] progress bar is 35
+[Debug] [2023-8-16 00:21:16] progress bar is 40
+[Debug] [2023-8-16 00:21:16] progress bar is 45
+[Debug] [2023-8-16 00:21:16] progress bar is 50
+[Debug] [2023-8-16 00:21:16] progress bar is 55
+[Debug] [2023-8-16 00:21:16] progress bar is 60
+[Debug] [2023-8-16 00:21:16] progress bar is 65
+[Debug] [2023-8-16 00:21:16] progress bar is 70
+[Debug] [2023-8-16 00:21:16] progress bar is 75
+[Debug] [2023-8-16 00:21:16] progress bar is 80
+[Debug] [2023-8-16 00:21:17] progress bar is 85
+[Debug] [2023-8-16 00:21:17] progress bar is 90
+[Debug] [2023-8-16 00:21:17] progress bar is 95
+[Debug] [2023-8-16 00:21:17] progress bar is 100
+[Debug] [2023-8-16 00:21:17] the value in the status register is :2096288
+[Debug] [2023-8-16 00:21:17] cmd operation Program releases locker
+[Debug] [2023-8-16 00:21:57] Remove the header data from the client, index : 0
+[Debug] [2023-8-16 00:21:57] _total_bytes_size : 570
+[Debug] [2023-8-16 00:21:57] cmd id :20002cmd name : Program
+[Debug] [2023-8-16 00:21:58] the idcode from the scanning is: 0x10521899
+[Debug] [2023-8-16 00:21:58] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 00:21:58] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 00:21:58] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 00:21:58] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 00:21:58] begin to read back config registerregAddr is 4
+[Debug] [2023-8-16 00:21:58] progress bar is 6
+[Debug] [2023-8-16 00:21:58] progress bar is 10
+[Debug] [2023-8-16 00:21:58] progress bar is 15
+[Debug] [2023-8-16 00:21:58] progress bar is 20
+[Debug] [2023-8-16 00:21:58] progress bar is 25
+[Debug] [2023-8-16 00:21:58] progress bar is 30
+[Debug] [2023-8-16 00:21:58] progress bar is 35
+[Debug] [2023-8-16 00:21:58] progress bar is 40
+[Debug] [2023-8-16 00:21:58] progress bar is 45
+[Debug] [2023-8-16 00:21:58] progress bar is 50
+[Debug] [2023-8-16 00:21:59] progress bar is 55
+[Debug] [2023-8-16 00:21:59] progress bar is 60
+[Debug] [2023-8-16 00:21:59] progress bar is 65
+[Debug] [2023-8-16 00:21:59] progress bar is 70
+[Debug] [2023-8-16 00:21:59] progress bar is 75
+[Debug] [2023-8-16 00:21:59] progress bar is 80
+[Debug] [2023-8-16 00:21:59] progress bar is 85
+[Debug] [2023-8-16 00:21:59] progress bar is 90
+[Debug] [2023-8-16 00:21:59] progress bar is 95
+[Debug] [2023-8-16 00:21:59] progress bar is 100
+[Debug] [2023-8-16 00:21:59] the value in the status register is :2096288
+[Debug] [2023-8-16 00:21:59] cmd operation Program releases locker
+[Debug] [2023-8-16 01:00:03] Remove the header data from the client, index : 0
+[Debug] [2023-8-16 01:00:03] _total_bytes_size : 570
+[Debug] [2023-8-16 01:00:03] cmd id :20002cmd name : Program
+[Debug] [2023-8-16 01:00:04] the idcode from the scanning is: 0x10521899
+[Debug] [2023-8-16 01:00:04] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:00:04] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:00:04] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:00:04] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:00:04] begin to read back config registerregAddr is 4
+[Debug] [2023-8-16 01:00:04] progress bar is 6
+[Debug] [2023-8-16 01:00:04] progress bar is 10
+[Debug] [2023-8-16 01:00:04] progress bar is 15
+[Debug] [2023-8-16 01:00:04] progress bar is 20
+[Debug] [2023-8-16 01:00:04] progress bar is 25
+[Debug] [2023-8-16 01:00:04] progress bar is 30
+[Debug] [2023-8-16 01:00:04] progress bar is 35
+[Debug] [2023-8-16 01:00:04] progress bar is 40
+[Debug] [2023-8-16 01:00:04] progress bar is 45
+[Debug] [2023-8-16 01:00:04] progress bar is 50
+[Debug] [2023-8-16 01:00:04] progress bar is 55
+[Debug] [2023-8-16 01:00:05] progress bar is 60
+[Debug] [2023-8-16 01:00:05] progress bar is 65
+[Debug] [2023-8-16 01:00:05] progress bar is 70
+[Debug] [2023-8-16 01:00:05] progress bar is 75
+[Debug] [2023-8-16 01:00:05] progress bar is 80
+[Debug] [2023-8-16 01:00:05] progress bar is 85
+[Debug] [2023-8-16 01:00:05] progress bar is 90
+[Debug] [2023-8-16 01:00:05] progress bar is 95
+[Debug] [2023-8-16 01:00:05] progress bar is 100
+[Debug] [2023-8-16 01:00:05] the value in the status register is :2096288
+[Debug] [2023-8-16 01:00:05] cmd operation Program releases locker
+[Debug] [2023-8-16 01:04:13] Remove the header data from the client, index : 0
+[Debug] [2023-8-16 01:04:13] _total_bytes_size : 570
+[Debug] [2023-8-16 01:04:13] cmd id :20002cmd name : Program
+[Debug] [2023-8-16 01:04:13] the idcode from the scanning is: 0x10521899
+[Debug] [2023-8-16 01:04:13] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:04:13] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:04:13] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:04:13] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:04:13] begin to read back config registerregAddr is 4
+[Debug] [2023-8-16 01:04:13] cmd operation Program releases locker
+[Debug] [2023-8-16 01:06:34] Remove the header data from the client, index : 0
+[Debug] [2023-8-16 01:06:34] _total_bytes_size : 23a
+[Debug] [2023-8-16 01:06:34] cmd id :4e22cmd name : Program
+[Debug] [2023-8-16 01:06:34] the idcode from the scanning is: 0x10521899
+[Debug] [2023-8-16 01:06:34] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:06:34] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:06:34] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:06:34] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:06:34] begin to read back config registerregAddr is 4
+[Debug] [2023-8-16 01:06:34] progress bar is 6
+[Debug] [2023-8-16 01:06:34] progress bar is 10
+[Debug] [2023-8-16 01:06:34] progress bar is 15
+[Debug] [2023-8-16 01:06:34] progress bar is 20
+[Debug] [2023-8-16 01:06:34] progress bar is 25
+[Debug] [2023-8-16 01:06:34] progress bar is 30
+[Debug] [2023-8-16 01:06:34] progress bar is 35
+[Debug] [2023-8-16 01:06:34] progress bar is 40
+[Debug] [2023-8-16 01:06:35] progress bar is 45
+[Debug] [2023-8-16 01:06:35] progress bar is 50
+[Debug] [2023-8-16 01:06:35] progress bar is 55
+[Debug] [2023-8-16 01:06:35] progress bar is 60
+[Debug] [2023-8-16 01:06:35] progress bar is 65
+[Debug] [2023-8-16 01:06:35] progress bar is 70
+[Debug] [2023-8-16 01:06:35] progress bar is 75
+[Debug] [2023-8-16 01:06:35] progress bar is 80
+[Debug] [2023-8-16 01:06:35] progress bar is 85
+[Debug] [2023-8-16 01:06:35] progress bar is 90
+[Debug] [2023-8-16 01:06:35] progress bar is 95
+[Debug] [2023-8-16 01:06:36] progress bar is 100
+[Debug] [2023-8-16 01:06:36] the value in the status register is :2096288
+[Debug] [2023-8-16 01:06:36] cmd operation Program releases locker
+[Debug] [2023-8-16 01:06:43] Remove the header data from the client, index : 0
+[Debug] [2023-8-16 01:06:43] _total_bytes_size : 570
+[Debug] [2023-8-16 01:06:43] cmd id :20002cmd name : Program
+[Debug] [2023-8-16 01:06:43] the idcode from the scanning is: 0x10521899
+[Debug] [2023-8-16 01:06:43] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:06:43] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:06:43] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:06:43] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:06:43] begin to read back config registerregAddr is 4
+[Debug] [2023-8-16 01:06:43] progress bar is 6
+[Debug] [2023-8-16 01:06:43] progress bar is 10
+[Debug] [2023-8-16 01:06:43] progress bar is 15
+[Debug] [2023-8-16 01:06:43] progress bar is 20
+[Debug] [2023-8-16 01:06:43] progress bar is 25
+[Debug] [2023-8-16 01:06:43] progress bar is 30
+[Debug] [2023-8-16 01:06:44] progress bar is 35
+[Debug] [2023-8-16 01:06:44] progress bar is 40
+[Debug] [2023-8-16 01:06:44] progress bar is 45
+[Debug] [2023-8-16 01:06:44] progress bar is 50
+[Debug] [2023-8-16 01:06:44] progress bar is 55
+[Debug] [2023-8-16 01:06:44] progress bar is 60
+[Debug] [2023-8-16 01:06:44] progress bar is 65
+[Debug] [2023-8-16 01:06:44] progress bar is 70
+[Debug] [2023-8-16 01:06:44] progress bar is 75
+[Debug] [2023-8-16 01:06:44] progress bar is 80
+[Debug] [2023-8-16 01:06:44] progress bar is 85
+[Debug] [2023-8-16 01:06:45] progress bar is 90
+[Debug] [2023-8-16 01:06:45] progress bar is 95
+[Debug] [2023-8-16 01:06:45] progress bar is 100
+[Debug] [2023-8-16 01:06:45] the value in the status register is :2096288
+[Debug] [2023-8-16 01:06:45] cmd operation Program releases locker
+[Debug] [2023-8-16 01:06:50] Remove the header data from the client, index : 0
+[Debug] [2023-8-16 01:06:50] _total_bytes_size : 570
+[Debug] [2023-8-16 01:06:50] cmd id :20002cmd name : Program
+[Debug] [2023-8-16 01:06:50] the idcode from the scanning is: 0x10521899
+[Debug] [2023-8-16 01:06:50] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:06:50] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:06:50] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:06:50] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:06:50] begin to read back config registerregAddr is 4
+[Debug] [2023-8-16 01:06:50] progress bar is 6
+[Debug] [2023-8-16 01:06:50] progress bar is 10
+[Debug] [2023-8-16 01:06:50] progress bar is 15
+[Debug] [2023-8-16 01:06:50] progress bar is 20
+[Debug] [2023-8-16 01:06:50] progress bar is 25
+[Debug] [2023-8-16 01:06:50] progress bar is 30
+[Debug] [2023-8-16 01:06:50] progress bar is 35
+[Debug] [2023-8-16 01:06:51] progress bar is 40
+[Debug] [2023-8-16 01:06:51] progress bar is 45
+[Debug] [2023-8-16 01:06:51] progress bar is 50
+[Debug] [2023-8-16 01:06:51] progress bar is 55
+[Debug] [2023-8-16 01:06:51] progress bar is 60
+[Debug] [2023-8-16 01:06:51] progress bar is 65
+[Debug] [2023-8-16 01:06:51] progress bar is 70
+[Debug] [2023-8-16 01:06:51] progress bar is 75
+[Debug] [2023-8-16 01:06:51] progress bar is 80
+[Debug] [2023-8-16 01:06:51] progress bar is 85
+[Debug] [2023-8-16 01:06:51] progress bar is 90
+[Debug] [2023-8-16 01:06:52] progress bar is 95
+[Debug] [2023-8-16 01:06:52] progress bar is 100
+[Debug] [2023-8-16 01:06:52] the value in the status register is :2096288
+[Debug] [2023-8-16 01:06:52] cmd operation Program releases locker
+[Debug] [2023-8-16 01:07:32] Remove the header data from the client, index : 0
+[Debug] [2023-8-16 01:07:32] _total_bytes_size : 114
+[Debug] [2023-8-16 01:07:32] cmd id :20100cmd name : Scan SPI Device On Board
+[Debug] [2023-8-16 01:07:32] begin to read flash id
+[Debug] [2023-8-16 01:07:32] end to read flash id, id code is 0x0
+[Error] [2023-8-16 01:07:32] E:CM Error: Try to create unsupported cable. In function cdt_cable_manager::cmWorkSpace::CreateCable at line 1530 in file F:\wf\2022.2-nolic\output_files\lite\FAB_Develop\branches\pds_2022.2-Lite\source\sw\cdt\cablemgr\CableBase.cpp compiled at Mar  3 2023.
+[Debug] [2023-8-16 01:07:32] begin to read flash id
+[Debug] [2023-8-16 01:07:32] end to read flash id, id code is 0x0
+[Error] [2023-8-16 01:07:32] E:CM Error: Try to create unsupported cable. In function cdt_cable_manager::cmWorkSpace::CreateCable at line 1530 in file F:\wf\2022.2-nolic\output_files\lite\FAB_Develop\branches\pds_2022.2-Lite\source\sw\cdt\cablemgr\CableBase.cpp compiled at Mar  3 2023.
+[Debug] [2023-8-16 01:07:33] begin to read flash id
+[Debug] [2023-8-16 01:07:33] end to read flash id, id code is 0x0
+[Error] [2023-8-16 01:07:33] E:CM Error: Try to create unsupported cable. In function cdt_cable_manager::cmWorkSpace::CreateCable at line 1530 in file F:\wf\2022.2-nolic\output_files\lite\FAB_Develop\branches\pds_2022.2-Lite\source\sw\cdt\cablemgr\CableBase.cpp compiled at Mar  3 2023.
+[Debug] [2023-8-16 01:07:33] begin to read flash id
+[Debug] [2023-8-16 01:07:33] end to read flash id, id code is 0x0
+[Error] [2023-8-16 01:07:33] E:CM Error: Try to create unsupported cable. In function cdt_cable_manager::cmWorkSpace::CreateCable at line 1530 in file F:\wf\2022.2-nolic\output_files\lite\FAB_Develop\branches\pds_2022.2-Lite\source\sw\cdt\cablemgr\CableBase.cpp compiled at Mar  3 2023.
+[Debug] [2023-8-16 01:07:33] begin to read flash id
+[Debug] [2023-8-16 01:07:33] end to read flash id, id code is 0x0
+[Error] [2023-8-16 01:07:34] E:CM Error: Try to create unsupported cable. In function cdt_cable_manager::cmWorkSpace::CreateCable at line 1530 in file F:\wf\2022.2-nolic\output_files\lite\FAB_Develop\branches\pds_2022.2-Lite\source\sw\cdt\cablemgr\CableBase.cpp compiled at Mar  3 2023.
+[Debug] [2023-8-16 01:07:34] begin to read flash id
+[Debug] [2023-8-16 01:07:34] end to read flash id, id code is 0x0
+[Error] [2023-8-16 01:07:34] E:CM Error: Try to create unsupported cable. In function cdt_cable_manager::cmWorkSpace::CreateCable at line 1530 in file F:\wf\2022.2-nolic\output_files\lite\FAB_Develop\branches\pds_2022.2-Lite\source\sw\cdt\cablemgr\CableBase.cpp compiled at Mar  3 2023.
+[Debug] [2023-8-16 01:07:34] begin to read flash id
+[Debug] [2023-8-16 01:07:34] end to read flash id, id code is 0x0
+[Error] [2023-8-16 01:07:34] E:CM Error: Try to create unsupported cable. In function cdt_cable_manager::cmWorkSpace::CreateCable at line 1530 in file F:\wf\2022.2-nolic\output_files\lite\FAB_Develop\branches\pds_2022.2-Lite\source\sw\cdt\cablemgr\CableBase.cpp compiled at Mar  3 2023.
+[Debug] [2023-8-16 01:07:35] begin to read flash id
+[Debug] [2023-8-16 01:07:35] end to read flash id, id code is 0x0
+[Error] [2023-8-16 01:07:35] E:CM Error: Try to create unsupported cable. In function cdt_cable_manager::cmWorkSpace::CreateCable at line 1530 in file F:\wf\2022.2-nolic\output_files\lite\FAB_Develop\branches\pds_2022.2-Lite\source\sw\cdt\cablemgr\CableBase.cpp compiled at Mar  3 2023.
+[Debug] [2023-8-16 01:07:35] begin to read flash id
+[Debug] [2023-8-16 01:07:35] end to read flash id, id code is 0x0
+[Error] [2023-8-16 01:07:35] E:CM Error: Try to create unsupported cable. In function cdt_cable_manager::cmWorkSpace::CreateCable at line 1530 in file F:\wf\2022.2-nolic\output_files\lite\FAB_Develop\branches\pds_2022.2-Lite\source\sw\cdt\cablemgr\CableBase.cpp compiled at Mar  3 2023.
+[Debug] [2023-8-16 01:07:35] begin to read flash id
+[Debug] [2023-8-16 01:07:35] end to read flash id, id code is 0x0
+[Debug] [2023-8-16 01:07:36] cmd operation Scan SPI Device On Board releases locker
+[Debug] [2023-8-16 01:10:08] Remove the header data from the client, index : 0
+[Debug] [2023-8-16 01:10:08] _total_bytes_size : 253
+[Debug] [2023-8-16 01:10:08] cmd id :4f4ccmd name : Scan Outer SPI Flash
+[Debug] [2023-8-16 01:10:09] the idcode from the scanning is: 0x10521899
+[Debug] [2023-8-16 01:10:09] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:10:09] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:10:09] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:10:09] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:10:09] the value in the status register is :1ffca0
+[Debug] [2023-8-16 01:10:09] flash_id is ef4018
+[Debug] [2023-8-16 01:10:09] cmd operation Scan Outer SPI Flash releases locker
+[Debug] [2023-8-16 01:10:15] Remove the header data from the client, index : 0
+[Debug] [2023-8-16 01:10:15] _total_bytes_size : 3aa
+[Debug] [2023-8-16 01:10:15] cmd id :4f4ecmd name : Erase Outer Flash
+[Debug] [2023-8-16 01:10:15] begin to operate flash: cmd id = 4f4e
+[Debug] [2023-8-16 01:10:15] the idcode from the scanning is: 0x10521899
+[Debug] [2023-8-16 01:10:15] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:10:15] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:10:15] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:10:15] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:10:15] the value in the status register is :1ffca0
+[Debug] [2023-8-16 01:10:15] flash_id is ef4018
+[Debug] [2023-8-16 01:10:15] the value in the status register is :1ffca0
+[Debug] [2023-8-16 01:10:15] progress bar is 1
+[Error] [2023-8-16 01:10:15] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:15] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:15] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:16] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:16] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:16] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:16] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:16] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:16] WaitForWIPFinish timeout, wait second ms:100
+[Debug] [2023-8-16 01:10:16] progress bar is 6
+[Error] [2023-8-16 01:10:16] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:17] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:17] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:17] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:17] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:17] WaitForWIPFinish timeout, wait second ms:100
+[Debug] [2023-8-16 01:10:17] progress bar is 12
+[Error] [2023-8-16 01:10:17] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:17] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:18] WaitForWIPFinish timeout, wait second ms:100
+[Debug] [2023-8-16 01:10:18] progress bar is 15
+[Error] [2023-8-16 01:10:18] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:18] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:18] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:18] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:18] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:18] WaitForWIPFinish timeout, wait second ms:100
+[Debug] [2023-8-16 01:10:19] progress bar is 21
+[Error] [2023-8-16 01:10:19] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:19] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:19] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:19] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:19] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:19] WaitForWIPFinish timeout, wait second ms:100
+[Debug] [2023-8-16 01:10:19] progress bar is 27
+[Error] [2023-8-16 01:10:20] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:20] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:20] WaitForWIPFinish timeout, wait second ms:100
+[Debug] [2023-8-16 01:10:20] progress bar is 30
+[Error] [2023-8-16 01:10:20] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:20] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:20] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:20] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:21] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:21] WaitForWIPFinish timeout, wait second ms:100
+[Debug] [2023-8-16 01:10:21] progress bar is 36
+[Error] [2023-8-16 01:10:21] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:21] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:21] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:21] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:21] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:22] WaitForWIPFinish timeout, wait second ms:100
+[Debug] [2023-8-16 01:10:22] progress bar is 42
+[Error] [2023-8-16 01:10:22] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:22] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:22] WaitForWIPFinish timeout, wait second ms:100
+[Debug] [2023-8-16 01:10:22] progress bar is 45
+[Error] [2023-8-16 01:10:22] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:22] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:22] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:23] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:23] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:23] WaitForWIPFinish timeout, wait second ms:100
+[Debug] [2023-8-16 01:10:23] progress bar is 51
+[Error] [2023-8-16 01:10:23] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:23] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:23] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:23] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:24] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:24] WaitForWIPFinish timeout, wait second ms:100
+[Debug] [2023-8-16 01:10:24] progress bar is 57
+[Error] [2023-8-16 01:10:24] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:24] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:24] WaitForWIPFinish timeout, wait second ms:100
+[Debug] [2023-8-16 01:10:24] progress bar is 60
+[Error] [2023-8-16 01:10:24] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:24] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:25] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:25] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:25] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:25] WaitForWIPFinish timeout, wait second ms:100
+[Debug] [2023-8-16 01:10:25] progress bar is 66
+[Error] [2023-8-16 01:10:25] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:25] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:25] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:26] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:26] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:26] WaitForWIPFinish timeout, wait second ms:100
+[Debug] [2023-8-16 01:10:26] progress bar is 72
+[Error] [2023-8-16 01:10:26] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:26] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:26] WaitForWIPFinish timeout, wait second ms:100
+[Debug] [2023-8-16 01:10:26] progress bar is 75
+[Error] [2023-8-16 01:10:27] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:27] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:27] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:27] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:27] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:27] WaitForWIPFinish timeout, wait second ms:100
+[Debug] [2023-8-16 01:10:27] progress bar is 81
+[Error] [2023-8-16 01:10:27] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:28] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:28] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:28] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:28] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:28] WaitForWIPFinish timeout, wait second ms:100
+[Debug] [2023-8-16 01:10:28] progress bar is 87
+[Error] [2023-8-16 01:10:28] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:28] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:29] WaitForWIPFinish timeout, wait second ms:100
+[Debug] [2023-8-16 01:10:29] progress bar is 90
+[Error] [2023-8-16 01:10:29] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:29] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:29] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:29] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:29] WaitForWIPFinish timeout, wait second ms:100
+[Error] [2023-8-16 01:10:29] WaitForWIPFinish timeout, wait second ms:100
+[Debug] [2023-8-16 01:10:30] progress bar is 96
+[Debug] [2023-8-16 01:10:30] progress bar is 100
+[Debug] [2023-8-16 01:10:30] end to operate flash: cmd id = 20302
+[Debug] [2023-8-16 01:10:30] cmd operation Erase Outer Flash releases locker
+[Debug] [2023-8-16 01:10:30] Remove the header data from the client, index : 0
+[Debug] [2023-8-16 01:10:30] _total_bytes_size : 935
+[Debug] [2023-8-16 01:10:30] cmd id :20301cmd name : Program Outer Flash
+[Debug] [2023-8-16 01:10:30] begin to operate flash: cmd id = 20301
+[Debug] [2023-8-16 01:10:30] the idcode from the scanning is: 0x10521899
+[Debug] [2023-8-16 01:10:30] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:10:30] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:10:30] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:10:30] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:10:30] the value in the status register is :1ffca0
+[Debug] [2023-8-16 01:10:30] flash_id is ef4018
+[Debug] [2023-8-16 01:10:30] The value of GigaDevice status register 1 is 0x
+[Debug] [2023-8-16 01:10:30] The value write to GigaDevice status register 1 is 0x
+[Debug] [2023-8-16 01:10:32] After write the value ,the value of GigaDevice status register 1 is 0x
+[Debug] [2023-8-16 01:10:32] progress bar is 1
+[Debug] [2023-8-16 01:10:34] progress bar is 6
+[Debug] [2023-8-16 01:10:35] progress bar is 10
+[Debug] [2023-8-16 01:10:37] progress bar is 15
+[Debug] [2023-8-16 01:10:38] progress bar is 20
+[Debug] [2023-8-16 01:10:40] progress bar is 25
+[Debug] [2023-8-16 01:10:42] progress bar is 30
+[Debug] [2023-8-16 01:10:43] progress bar is 35
+[Debug] [2023-8-16 01:10:45] progress bar is 40
+[Debug] [2023-8-16 01:10:47] progress bar is 45
+[Debug] [2023-8-16 01:10:48] progress bar is 50
+[Debug] [2023-8-16 01:10:50] progress bar is 55
+[Debug] [2023-8-16 01:10:52] progress bar is 60
+[Debug] [2023-8-16 01:10:53] progress bar is 65
+[Debug] [2023-8-16 01:10:55] progress bar is 70
+[Debug] [2023-8-16 01:10:57] progress bar is 75
+[Debug] [2023-8-16 01:10:58] progress bar is 80
+[Debug] [2023-8-16 01:11:00] progress bar is 85
+[Debug] [2023-8-16 01:11:02] progress bar is 90
+[Debug] [2023-8-16 01:11:04] progress bar is 95
+[Debug] [2023-8-16 01:11:05] progress bar is 100
+[Debug] [2023-8-16 01:11:05] end to operate flash: cmd id = 20301
+[Debug] [2023-8-16 01:11:05] cmd operation Program Outer Flash releases locker
+[Debug] [2023-8-16 01:11:05] Remove the header data from the client, index : 0
+[Debug] [2023-8-16 01:11:05] _total_bytes_size : 933
+[Debug] [2023-8-16 01:11:05] cmd id :20303cmd name : Verify Outer Flash
+[Debug] [2023-8-16 01:11:05] begin to operate flash: cmd id = 20303
+[Debug] [2023-8-16 01:11:06] the idcode from the scanning is: 0x10521899
+[Debug] [2023-8-16 01:11:06] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:11:06] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:11:06] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:11:06] the idcode from the scanning is: 0x0
+[Debug] [2023-8-16 01:11:06] the value in the status register is :1ffca0
+[Debug] [2023-8-16 01:11:06] flash_id is ef4018
+[Debug] [2023-8-16 01:11:06] the value in the status register is :1ffca0
+[Debug] [2023-8-16 01:11:06] progress bar is 1
+[Debug] [2023-8-16 01:11:06] progress bar is 6
+[Debug] [2023-8-16 01:11:06] progress bar is 10
+[Debug] [2023-8-16 01:11:06] progress bar is 15
+[Debug] [2023-8-16 01:11:06] progress bar is 20
+[Debug] [2023-8-16 01:11:06] progress bar is 25
+[Debug] [2023-8-16 01:11:06] progress bar is 30
+[Debug] [2023-8-16 01:11:06] progress bar is 35
+[Debug] [2023-8-16 01:11:06] progress bar is 40
+[Debug] [2023-8-16 01:11:07] progress bar is 45
+[Debug] [2023-8-16 01:11:07] progress bar is 50
+[Debug] [2023-8-16 01:11:07] progress bar is 55
+[Debug] [2023-8-16 01:11:07] progress bar is 60
+[Debug] [2023-8-16 01:11:07] progress bar is 65
+[Debug] [2023-8-16 01:11:07] progress bar is 70
+[Debug] [2023-8-16 01:11:07] progress bar is 75
+[Debug] [2023-8-16 01:11:07] progress bar is 80
+[Debug] [2023-8-16 01:11:07] progress bar is 85
+[Debug] [2023-8-16 01:11:08] progress bar is 90
+[Debug] [2023-8-16 01:11:08] progress bar is 95
+[Debug] [2023-8-16 01:11:08] progress bar is 100
+[Debug] [2023-8-16 01:11:08] end to operate flash: cmd id = 20303
+[Debug] [2023-8-16 01:11:08] cmd operation Verify Outer Flash releases locker

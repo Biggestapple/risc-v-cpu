@@ -1,0 +1,385 @@
+[Info] [2023-8-16 00:20:27] /***************************Start Configuration***************************/
+[Info] [2023-8-16 00:20:27] Path: E:/PANGO/PDS_2022.2-Lite/bin
+[Info] [2023-8-16 00:20:27] Version: 118454
+[Info] [2023-8-16 00:20:28] Current Path: E:/Pango Project/Rsicv_001/Sc_cpu
+[Info] [2023-8-16 00:20:28] PDS Dir Path: E:/Pango Project/Rsicv_001/Sc_cpu
+[Info] [2023-8-16 00:20:34] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-8-16 00:20:34] Client Local host name:DESKTOP-7ABJ8L4
+[Debug] [2023-8-16 00:20:34] Client Local Address:192.168.43.46
+[Debug] [2023-8-16 00:20:34] Server Address:127.0.0.1, Port:65420
+[Info] [2023-8-16 00:20:36] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-8-16 00:20:36] Finish.
+[Info] [2023-8-16 00:20:36] Connect server succeeded
+[Debug] [2023-8-16 00:20:36] Send RPC:1
+[Debug] [2023-8-16 00:20:36] Send cmd [check version information:40004] OK
+[Debug] [2023-8-16 00:20:36] Send RPC:2
+[Debug] [2023-8-16 00:20:36] Send cmd [get_cable_paras:40010] OK
+[Debug] [2023-8-16 00:20:36] Begin to send initialize chain cmd...
+[Debug] [2023-8-16 00:20:36] Send RPC:3
+[Debug] [2023-8-16 00:20:36] Send cmd [Open config cable:20001] OK
+[Debug] [2023-8-16 00:20:36] End to send initialize chain cmd.
+[Debug] [2023-8-16 00:20:36] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-8-16 00:20:37] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2023-8-16 00:20:37] begin the exec of open cable cmd...
+[Debug] [2023-8-16 00:20:37] Begin to deal with chain from server...
+[Debug] [2023-8-16 00:20:37] Begin to set user chain...
+[Debug] [2023-8-16 00:20:37] End to set user chain.
+[Debug] [2023-8-16 00:20:37] Begin to update graphic item and tree item ...
+[Debug] [2023-8-16 00:20:37] End to update graphic item and tree item ...
+[Info] [2023-8-16 00:20:41] set OpenLastPath: E:/Pango Project/Rsicv_001/Sc_cpu/generate_bitstream/soc_demo.sbit
+[Debug] [2023-8-16 00:20:41] begin to get device info from CFG file...
+[Debug] [2023-8-16 00:20:41] end to get device info from CFG file...
+[Debug] [2023-8-16 00:20:42] Begin to update graphic item and tree item ...
+[Debug] [2023-8-16 00:20:42] End to update graphic item and tree item ...
+[Debug] [2023-8-16 00:20:42] Begin to update graphic item and tree item ...
+[Debug] [2023-8-16 00:20:42] End to update graphic item and tree item ...
+[Debug] [2023-8-16 00:20:42] End to deal wiht chain from server.
+[Debug] [2023-8-16 00:20:42] end the exec of open cable cmd.
+[Debug] [2023-8-16 00:20:42] COMMAND[Open config cable] execute successfully, takes 5.8 secs.
+[Debug] [2023-8-16 00:20:44] Begin to send programming cmd...
+[Debug] [2023-8-16 00:20:44] Send RPC:4
+[Debug] [2023-8-16 00:20:44] Begin to send program data.
+[Debug] [2023-8-16 00:20:44] End to send program data.
+[Debug] [2023-8-16 00:20:44] Send cmd [Program:20002] OK
+[Debug] [2023-8-16 00:20:44] The value of Progress is 6
+[Debug] [2023-8-16 00:20:44] The value of Progress is 10
+[Debug] [2023-8-16 00:20:44] The value of Progress is 15
+[Debug] [2023-8-16 00:20:44] The value of Progress is 20
+[Debug] [2023-8-16 00:20:44] The value of Progress is 25
+[Debug] [2023-8-16 00:20:44] The value of Progress is 30
+[Debug] [2023-8-16 00:20:45] The value of Progress is 35
+[Debug] [2023-8-16 00:20:45] The value of Progress is 40
+[Debug] [2023-8-16 00:20:45] The value of Progress is 45
+[Debug] [2023-8-16 00:20:45] The value of Progress is 50
+[Debug] [2023-8-16 00:20:45] The value of Progress is 55
+[Debug] [2023-8-16 00:20:45] The value of Progress is 60
+[Debug] [2023-8-16 00:20:45] The value of Progress is 65
+[Debug] [2023-8-16 00:20:45] The value of Progress is 70
+[Debug] [2023-8-16 00:20:45] The value of Progress is 75
+[Debug] [2023-8-16 00:20:45] The value of Progress is 80
+[Debug] [2023-8-16 00:20:45] The value of Progress is 85
+[Debug] [2023-8-16 00:20:46] The value of Progress is 90
+[Debug] [2023-8-16 00:20:46] The value of Progress is 95
+[Debug] [2023-8-16 00:20:46] The value of Progress is 100
+[Debug] [2023-8-16 00:20:46] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-8-16 00:20:46] End to send programming cmd.
+[Debug] [2023-8-16 00:21:01] Begin to send programming cmd...
+[Debug] [2023-8-16 00:21:01] Send RPC:5
+[Debug] [2023-8-16 00:21:01] Begin to send program data.
+[Debug] [2023-8-16 00:21:01] End to send program data.
+[Debug] [2023-8-16 00:21:01] Send cmd [Program:20002] OK
+[Debug] [2023-8-16 00:21:01] The value of Progress is 6
+[Debug] [2023-8-16 00:21:01] The value of Progress is 10
+[Debug] [2023-8-16 00:21:01] The value of Progress is 15
+[Debug] [2023-8-16 00:21:01] The value of Progress is 20
+[Debug] [2023-8-16 00:21:01] The value of Progress is 25
+[Debug] [2023-8-16 00:21:01] The value of Progress is 30
+[Debug] [2023-8-16 00:21:01] The value of Progress is 35
+[Debug] [2023-8-16 00:21:02] The value of Progress is 40
+[Debug] [2023-8-16 00:21:02] The value of Progress is 45
+[Debug] [2023-8-16 00:21:02] The value of Progress is 50
+[Debug] [2023-8-16 00:21:02] The value of Progress is 55
+[Debug] [2023-8-16 00:21:02] The value of Progress is 60
+[Debug] [2023-8-16 00:21:02] The value of Progress is 65
+[Debug] [2023-8-16 00:21:02] The value of Progress is 70
+[Debug] [2023-8-16 00:21:02] The value of Progress is 75
+[Debug] [2023-8-16 00:21:02] The value of Progress is 80
+[Debug] [2023-8-16 00:21:02] The value of Progress is 85
+[Debug] [2023-8-16 00:21:02] The value of Progress is 90
+[Debug] [2023-8-16 00:21:03] The value of Progress is 95
+[Debug] [2023-8-16 00:21:03] The value of Progress is 100
+[Debug] [2023-8-16 00:21:03] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-8-16 00:21:03] End to send programming cmd.
+[Debug] [2023-8-16 00:21:15] Begin to send programming cmd...
+[Debug] [2023-8-16 00:21:15] Send RPC:6
+[Debug] [2023-8-16 00:21:15] Begin to send program data.
+[Debug] [2023-8-16 00:21:15] End to send program data.
+[Debug] [2023-8-16 00:21:15] Send cmd [Program:20002] OK
+[Debug] [2023-8-16 00:21:15] The value of Progress is 6
+[Debug] [2023-8-16 00:21:15] The value of Progress is 10
+[Debug] [2023-8-16 00:21:15] The value of Progress is 15
+[Debug] [2023-8-16 00:21:15] The value of Progress is 20
+[Debug] [2023-8-16 00:21:16] The value of Progress is 25
+[Debug] [2023-8-16 00:21:16] The value of Progress is 30
+[Debug] [2023-8-16 00:21:16] The value of Progress is 35
+[Debug] [2023-8-16 00:21:16] The value of Progress is 40
+[Debug] [2023-8-16 00:21:16] The value of Progress is 45
+[Debug] [2023-8-16 00:21:16] The value of Progress is 50
+[Debug] [2023-8-16 00:21:16] The value of Progress is 55
+[Debug] [2023-8-16 00:21:16] The value of Progress is 60
+[Debug] [2023-8-16 00:21:16] The value of Progress is 65
+[Debug] [2023-8-16 00:21:16] The value of Progress is 70
+[Debug] [2023-8-16 00:21:16] The value of Progress is 75
+[Debug] [2023-8-16 00:21:16] The value of Progress is 80
+[Debug] [2023-8-16 00:21:17] The value of Progress is 85
+[Debug] [2023-8-16 00:21:17] The value of Progress is 90
+[Debug] [2023-8-16 00:21:17] The value of Progress is 95
+[Debug] [2023-8-16 00:21:17] The value of Progress is 100
+[Debug] [2023-8-16 00:21:17] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-8-16 00:21:17] End to send programming cmd.
+[Debug] [2023-8-16 00:21:57] Begin to send programming cmd...
+[Debug] [2023-8-16 00:21:57] Send RPC:7
+[Debug] [2023-8-16 00:21:57] Begin to send program data.
+[Debug] [2023-8-16 00:21:57] End to send program data.
+[Debug] [2023-8-16 00:21:57] Send cmd [Program:20002] OK
+[Debug] [2023-8-16 00:21:58] The value of Progress is 6
+[Debug] [2023-8-16 00:21:58] The value of Progress is 10
+[Debug] [2023-8-16 00:21:58] The value of Progress is 15
+[Debug] [2023-8-16 00:21:58] The value of Progress is 20
+[Debug] [2023-8-16 00:21:58] The value of Progress is 25
+[Debug] [2023-8-16 00:21:58] The value of Progress is 30
+[Debug] [2023-8-16 00:21:58] The value of Progress is 35
+[Debug] [2023-8-16 00:21:58] The value of Progress is 40
+[Debug] [2023-8-16 00:21:58] The value of Progress is 45
+[Debug] [2023-8-16 00:21:58] The value of Progress is 50
+[Debug] [2023-8-16 00:21:59] The value of Progress is 55
+[Debug] [2023-8-16 00:21:59] The value of Progress is 60
+[Debug] [2023-8-16 00:21:59] The value of Progress is 65
+[Debug] [2023-8-16 00:21:59] The value of Progress is 70
+[Debug] [2023-8-16 00:21:59] The value of Progress is 75
+[Debug] [2023-8-16 00:21:59] The value of Progress is 80
+[Debug] [2023-8-16 00:21:59] The value of Progress is 85
+[Debug] [2023-8-16 00:21:59] The value of Progress is 90
+[Debug] [2023-8-16 00:21:59] The value of Progress is 95
+[Debug] [2023-8-16 00:21:59] The value of Progress is 100
+[Debug] [2023-8-16 00:21:59] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-8-16 00:21:59] End to send programming cmd.
+[Debug] [2023-8-16 01:00:03] Begin to send programming cmd...
+[Debug] [2023-8-16 01:00:03] Send RPC:8
+[Debug] [2023-8-16 01:00:03] Begin to send program data.
+[Debug] [2023-8-16 01:00:03] End to send program data.
+[Debug] [2023-8-16 01:00:03] Send cmd [Program:20002] OK
+[Debug] [2023-8-16 01:00:04] The value of Progress is 6
+[Debug] [2023-8-16 01:00:04] The value of Progress is 10
+[Debug] [2023-8-16 01:00:04] The value of Progress is 15
+[Debug] [2023-8-16 01:00:04] The value of Progress is 20
+[Debug] [2023-8-16 01:00:04] The value of Progress is 25
+[Debug] [2023-8-16 01:00:04] The value of Progress is 30
+[Debug] [2023-8-16 01:00:04] The value of Progress is 35
+[Debug] [2023-8-16 01:00:04] The value of Progress is 40
+[Debug] [2023-8-16 01:00:04] The value of Progress is 45
+[Debug] [2023-8-16 01:00:04] The value of Progress is 50
+[Debug] [2023-8-16 01:00:04] The value of Progress is 55
+[Debug] [2023-8-16 01:00:05] The value of Progress is 60
+[Debug] [2023-8-16 01:00:05] The value of Progress is 65
+[Debug] [2023-8-16 01:00:05] The value of Progress is 70
+[Debug] [2023-8-16 01:00:05] The value of Progress is 75
+[Debug] [2023-8-16 01:00:05] The value of Progress is 80
+[Debug] [2023-8-16 01:00:05] The value of Progress is 85
+[Debug] [2023-8-16 01:00:05] The value of Progress is 90
+[Debug] [2023-8-16 01:00:05] The value of Progress is 95
+[Debug] [2023-8-16 01:00:05] The value of Progress is 100
+[Debug] [2023-8-16 01:00:05] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-8-16 01:00:05] End to send programming cmd.
+[Debug] [2023-8-16 01:04:13] Begin to send programming cmd...
+[Error] [2023-8-16 01:04:13] can not open bit stream file.
+[Debug] [2023-8-16 01:04:13] Send RPC:9
+[Debug] [2023-8-16 01:04:13] Begin to send program data.
+[Debug] [2023-8-16 01:04:13] End to send program data.
+[Debug] [2023-8-16 01:04:13] Send cmd [Program:20002] OK
+[Error] [2023-8-16 01:04:13] fail to exec Program cmd...
+[Debug] [2023-8-16 01:04:13] End to send programming cmd.
+[Debug] [2023-8-16 01:06:34] Begin to send programming cmd...
+[Debug] [2023-8-16 01:06:34] Send RPC:10
+[Debug] [2023-8-16 01:06:34] Begin to send program data.
+[Debug] [2023-8-16 01:06:34] End to send program data.
+[Debug] [2023-8-16 01:06:34] Send cmd [Program:20002] OK
+[Debug] [2023-8-16 01:06:34] The value of Progress is 6
+[Debug] [2023-8-16 01:06:34] The value of Progress is 10
+[Debug] [2023-8-16 01:06:34] The value of Progress is 15
+[Debug] [2023-8-16 01:06:34] The value of Progress is 20
+[Debug] [2023-8-16 01:06:34] The value of Progress is 25
+[Debug] [2023-8-16 01:06:34] The value of Progress is 30
+[Debug] [2023-8-16 01:06:34] The value of Progress is 35
+[Debug] [2023-8-16 01:06:34] The value of Progress is 40
+[Debug] [2023-8-16 01:06:35] The value of Progress is 45
+[Debug] [2023-8-16 01:06:35] The value of Progress is 50
+[Debug] [2023-8-16 01:06:35] The value of Progress is 55
+[Debug] [2023-8-16 01:06:35] The value of Progress is 60
+[Debug] [2023-8-16 01:06:35] The value of Progress is 65
+[Debug] [2023-8-16 01:06:35] The value of Progress is 70
+[Debug] [2023-8-16 01:06:35] The value of Progress is 75
+[Debug] [2023-8-16 01:06:35] The value of Progress is 80
+[Debug] [2023-8-16 01:06:35] The value of Progress is 85
+[Debug] [2023-8-16 01:06:35] The value of Progress is 90
+[Debug] [2023-8-16 01:06:35] The value of Progress is 95
+[Debug] [2023-8-16 01:06:36] The value of Progress is 100
+[Debug] [2023-8-16 01:06:36] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-8-16 01:06:36] End to send programming cmd.
+[Debug] [2023-8-16 01:06:43] Begin to send programming cmd...
+[Debug] [2023-8-16 01:06:43] Send RPC:11
+[Debug] [2023-8-16 01:06:43] Begin to send program data.
+[Debug] [2023-8-16 01:06:43] End to send program data.
+[Debug] [2023-8-16 01:06:43] Send cmd [Program:20002] OK
+[Debug] [2023-8-16 01:06:43] The value of Progress is 6
+[Debug] [2023-8-16 01:06:43] The value of Progress is 10
+[Debug] [2023-8-16 01:06:43] The value of Progress is 15
+[Debug] [2023-8-16 01:06:43] The value of Progress is 20
+[Debug] [2023-8-16 01:06:43] The value of Progress is 25
+[Debug] [2023-8-16 01:06:43] The value of Progress is 30
+[Debug] [2023-8-16 01:06:44] The value of Progress is 35
+[Debug] [2023-8-16 01:06:44] The value of Progress is 40
+[Debug] [2023-8-16 01:06:44] The value of Progress is 45
+[Debug] [2023-8-16 01:06:44] The value of Progress is 50
+[Debug] [2023-8-16 01:06:44] The value of Progress is 55
+[Debug] [2023-8-16 01:06:44] The value of Progress is 60
+[Debug] [2023-8-16 01:06:44] The value of Progress is 65
+[Debug] [2023-8-16 01:06:44] The value of Progress is 70
+[Debug] [2023-8-16 01:06:44] The value of Progress is 75
+[Debug] [2023-8-16 01:06:44] The value of Progress is 80
+[Debug] [2023-8-16 01:06:44] The value of Progress is 85
+[Debug] [2023-8-16 01:06:45] The value of Progress is 90
+[Debug] [2023-8-16 01:06:45] The value of Progress is 95
+[Debug] [2023-8-16 01:06:45] The value of Progress is 100
+[Debug] [2023-8-16 01:06:45] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-8-16 01:06:45] End to send programming cmd.
+[Debug] [2023-8-16 01:06:50] Begin to send programming cmd...
+[Debug] [2023-8-16 01:06:50] Send RPC:12
+[Debug] [2023-8-16 01:06:50] Begin to send program data.
+[Debug] [2023-8-16 01:06:50] End to send program data.
+[Debug] [2023-8-16 01:06:50] Send cmd [Program:20002] OK
+[Debug] [2023-8-16 01:06:50] The value of Progress is 6
+[Debug] [2023-8-16 01:06:50] The value of Progress is 10
+[Debug] [2023-8-16 01:06:50] The value of Progress is 15
+[Debug] [2023-8-16 01:06:50] The value of Progress is 20
+[Debug] [2023-8-16 01:06:50] The value of Progress is 25
+[Debug] [2023-8-16 01:06:50] The value of Progress is 30
+[Debug] [2023-8-16 01:06:50] The value of Progress is 35
+[Debug] [2023-8-16 01:06:51] The value of Progress is 40
+[Debug] [2023-8-16 01:06:51] The value of Progress is 45
+[Debug] [2023-8-16 01:06:51] The value of Progress is 50
+[Debug] [2023-8-16 01:06:51] The value of Progress is 55
+[Debug] [2023-8-16 01:06:51] The value of Progress is 60
+[Debug] [2023-8-16 01:06:51] The value of Progress is 65
+[Debug] [2023-8-16 01:06:51] The value of Progress is 70
+[Debug] [2023-8-16 01:06:51] The value of Progress is 75
+[Debug] [2023-8-16 01:06:51] The value of Progress is 80
+[Debug] [2023-8-16 01:06:51] The value of Progress is 85
+[Debug] [2023-8-16 01:06:51] The value of Progress is 90
+[Debug] [2023-8-16 01:06:52] The value of Progress is 95
+[Debug] [2023-8-16 01:06:52] The value of Progress is 100
+[Debug] [2023-8-16 01:06:52] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-8-16 01:06:52] End to send programming cmd.
+[Debug] [2023-8-16 01:07:32] Begin to send initialize chain cmd...
+[Debug] [2023-8-16 01:07:32] Begin to send cmd of scanning flash device on board
+[Debug] [2023-8-16 01:07:32] Send RPC:13
+[Debug] [2023-8-16 01:07:32] Send cmd [Scan SPI Device On Board:20100] OK
+[Debug] [2023-8-16 01:07:32] End to send cmd of scanning flash device on board
+[Debug] [2023-8-16 01:07:32] End to send initialize chain cmd.
+[Debug] [2023-8-16 01:07:35] begin to scan flash device.
+[Error] [2023-8-16 01:07:35] fail to exec Scan SPI Device On Board cmd...
+[Debug] [2023-8-16 01:08:42] Begin to Converte file.
+[Debug] [2023-8-16 01:10:04] begin to parse sfc file.
+[Debug] [2023-8-16 01:10:04] begin to get device info from CFG file...
+[Debug] [2023-8-16 01:10:04] end to get device info from CFG file...
+[Debug] [2023-8-16 01:10:04] begin to get device info from CFG file...
+[Debug] [2023-8-16 01:10:04] end to get device info from CFG file...
+[Debug] [2023-8-16 01:10:04] end to parse sfc file.
+[Debug] [2023-8-16 01:10:06] End to Converte file.
+[Debug] [2023-8-16 01:10:08] Begin to send scan outer flash cmd...
+[Debug] [2023-8-16 01:10:08] Send RPC:14
+[Debug] [2023-8-16 01:10:08] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2023-8-16 01:10:08] End to send scan outer flash cmd.
+[Debug] [2023-8-16 01:10:09] begin to exec scan jtag flash cmd...
+[Debug] [2023-8-16 01:10:09] Begin to initialize JtagFlash for selected FPGA Device...
+[Debug] [2023-8-16 01:10:09] Begin to update graphic item and tree item ...
+[Debug] [2023-8-16 01:10:09] End to update graphic item and tree item ...
+[Info] [2023-8-16 01:10:11] set OpenLastPath: E:/Pango Project/Rsicv_001/Sc_cpu/generate_bitstream/soc_demo.sfc
+[Debug] [2023-8-16 01:10:11] begin to check SFC File and Flash Device Read Mode.
+[Debug] [2023-8-16 01:10:11] end to check SFC File and Flash Device Read Mode.
+[Debug] [2023-8-16 01:10:11] Begin to update graphic item and tree item ...
+[Debug] [2023-8-16 01:10:11] End to update graphic item and tree item ...
+[Debug] [2023-8-16 01:10:11] End to initialize OuterFlash for selected FPGA Device...
+[Debug] [2023-8-16 01:10:11] end to exec scan jtag flash cmd...
+[Debug] [2023-8-16 01:10:11] COMMAND[Scan Outer SPI Flash] execute successfully, takes 3.1 secs.
+[Debug] [2023-8-16 01:10:15] begin to send promgram jtag flash cmd.
+[Debug] [2023-8-16 01:10:15] begin to send jtag flash erase cmd
+[Debug] [2023-8-16 01:10:15] Send RPC:15
+[Debug] [2023-8-16 01:10:15] Begin to send embed flash erase data.
+[Debug] [2023-8-16 01:10:15] Begin to send flash erase data.
+[Debug] [2023-8-16 01:10:15] End to send flash erase data.
+[Debug] [2023-8-16 01:10:15] End to send embed flash erase data.
+[Debug] [2023-8-16 01:10:15] Send cmd [Erase Outer Flash:20302] OK
+[Debug] [2023-8-16 01:10:15] The value of Progress is 1
+[Debug] [2023-8-16 01:10:16] The value of Progress is 6
+[Debug] [2023-8-16 01:10:17] The value of Progress is 12
+[Debug] [2023-8-16 01:10:18] The value of Progress is 15
+[Debug] [2023-8-16 01:10:19] The value of Progress is 21
+[Debug] [2023-8-16 01:10:19] The value of Progress is 27
+[Debug] [2023-8-16 01:10:20] The value of Progress is 30
+[Debug] [2023-8-16 01:10:21] The value of Progress is 36
+[Debug] [2023-8-16 01:10:22] The value of Progress is 42
+[Debug] [2023-8-16 01:10:22] The value of Progress is 45
+[Debug] [2023-8-16 01:10:23] The value of Progress is 51
+[Debug] [2023-8-16 01:10:24] The value of Progress is 57
+[Debug] [2023-8-16 01:10:24] The value of Progress is 60
+[Debug] [2023-8-16 01:10:25] The value of Progress is 66
+[Debug] [2023-8-16 01:10:26] The value of Progress is 72
+[Debug] [2023-8-16 01:10:26] The value of Progress is 75
+[Debug] [2023-8-16 01:10:27] The value of Progress is 81
+[Debug] [2023-8-16 01:10:28] The value of Progress is 87
+[Debug] [2023-8-16 01:10:29] The value of Progress is 90
+[Debug] [2023-8-16 01:10:30] The value of Progress is 96
+[Debug] [2023-8-16 01:10:30] The value of Progress is 100
+[Debug] [2023-8-16 01:10:30] COMMAND[Erase Outer Flash] execute finish, takes 14.8 secs.
+[Debug] [2023-8-16 01:10:30] end to send jtag flash erase cmd.
+[Debug] [2023-8-16 01:10:30] Send RPC:16
+[Debug] [2023-8-16 01:10:30] Begin to send jtag flash program data.
+[Debug] [2023-8-16 01:10:30] Begin to send flash program data.
+[Debug] [2023-8-16 01:10:30] End to send flash program data.
+[Debug] [2023-8-16 01:10:30] End to send embed flash program data.
+[Debug] [2023-8-16 01:10:30] Send cmd [Program Outer Flash:20301] OK
+[Debug] [2023-8-16 01:10:32] The value of Progress is 1
+[Debug] [2023-8-16 01:10:34] The value of Progress is 6
+[Debug] [2023-8-16 01:10:35] The value of Progress is 10
+[Debug] [2023-8-16 01:10:37] The value of Progress is 15
+[Debug] [2023-8-16 01:10:38] The value of Progress is 20
+[Debug] [2023-8-16 01:10:40] The value of Progress is 25
+[Debug] [2023-8-16 01:10:42] The value of Progress is 30
+[Debug] [2023-8-16 01:10:43] The value of Progress is 35
+[Debug] [2023-8-16 01:10:45] The value of Progress is 40
+[Debug] [2023-8-16 01:10:47] The value of Progress is 45
+[Debug] [2023-8-16 01:10:48] The value of Progress is 50
+[Debug] [2023-8-16 01:10:50] The value of Progress is 55
+[Debug] [2023-8-16 01:10:52] The value of Progress is 60
+[Debug] [2023-8-16 01:10:53] The value of Progress is 65
+[Debug] [2023-8-16 01:10:55] The value of Progress is 70
+[Debug] [2023-8-16 01:10:57] The value of Progress is 75
+[Debug] [2023-8-16 01:10:58] The value of Progress is 80
+[Debug] [2023-8-16 01:11:00] The value of Progress is 85
+[Debug] [2023-8-16 01:11:02] The value of Progress is 90
+[Debug] [2023-8-16 01:11:04] The value of Progress is 95
+[Debug] [2023-8-16 01:11:05] The value of Progress is 100
+[Debug] [2023-8-16 01:11:05] COMMAND[Program Outer Flash] execute finish, takes 35.8 secs.
+[Debug] [2023-8-16 01:11:05] begin to send jtag flash verify cmd
+[Debug] [2023-8-16 01:11:05] Send RPC:17
+[Debug] [2023-8-16 01:11:05] Begin to send embed flash verify data.
+[Debug] [2023-8-16 01:11:05] Begin to send flash verify data.
+[Debug] [2023-8-16 01:11:05] End to send flash verify data.
+[Debug] [2023-8-16 01:11:05] End to send embed flash verify data.
+[Debug] [2023-8-16 01:11:05] Send cmd [Verify Outer Flash:20303] OK
+[Debug] [2023-8-16 01:11:06] The value of Progress is 1
+[Debug] [2023-8-16 01:11:06] The value of Progress is 6
+[Debug] [2023-8-16 01:11:06] The value of Progress is 10
+[Debug] [2023-8-16 01:11:06] The value of Progress is 15
+[Debug] [2023-8-16 01:11:06] The value of Progress is 20
+[Debug] [2023-8-16 01:11:06] The value of Progress is 25
+[Debug] [2023-8-16 01:11:06] The value of Progress is 30
+[Debug] [2023-8-16 01:11:06] The value of Progress is 35
+[Debug] [2023-8-16 01:11:06] The value of Progress is 40
+[Debug] [2023-8-16 01:11:07] The value of Progress is 45
+[Debug] [2023-8-16 01:11:07] The value of Progress is 50
+[Debug] [2023-8-16 01:11:07] The value of Progress is 55
+[Debug] [2023-8-16 01:11:07] The value of Progress is 60
+[Debug] [2023-8-16 01:11:07] The value of Progress is 65
+[Debug] [2023-8-16 01:11:07] The value of Progress is 70
+[Debug] [2023-8-16 01:11:07] The value of Progress is 75
+[Debug] [2023-8-16 01:11:07] The value of Progress is 80
+[Debug] [2023-8-16 01:11:07] The value of Progress is 85
+[Debug] [2023-8-16 01:11:08] The value of Progress is 90
+[Debug] [2023-8-16 01:11:08] The value of Progress is 95
+[Debug] [2023-8-16 01:11:08] The value of Progress is 100
+[Debug] [2023-8-16 01:11:08] COMMAND[Verify Outer Flash] execute successfully, takes 2.5 secs.
+[Debug] [2023-8-16 01:11:08] end to send jtag flash verify cmd
+[Debug] [2023-8-16 01:11:08] end to send jtag flash program cmd.
+[Info] [2023-8-16 13:47:53] /***************************End Configration***************************/
