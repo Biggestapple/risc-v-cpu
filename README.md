@@ -36,10 +36,11 @@
 | Others |  |N |
 
 ## 文档结构说明
-  * Single_Cycle_processor  
+  * _Single_Cycle_processor_    
       * control_unit:控制单元
       * datapath:其他组件
       * tb:包含测试工程与测试文件
-  * Multi_Cycle_processor  
-      * 未完成 :)  
+  * _Multi_Cycle_processor_  
+      * 未完成 :)
+  * _Sc_cpu_demo_: 基于紫光同创开发板的流水灯demo  
 
