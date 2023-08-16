@@ -10,7 +10,7 @@
 所以在Demo中使用pll生成5Mhz时钟作为系统时钟，而实际的运行速度是系统时钟的二分频即2.5Mhz.  
 * 单周期处理器占用FPGA中大量资源 _(实测PANGOP50超过12%)_ 而不具有实用价值，仅仅作为实验用途，所以除  
 必要的分支、运算指令，部分指令未实现比如移位指令等详见下表.  
-*Single_Cycle_processor 支持指令集  
+* Single_Cycle_processor 支持指令集  
 
 | Instruction |  | Support |
 | :-----| ----: | :----: |
