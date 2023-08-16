@@ -1,7 +1,7 @@
 # risc-v-cpu
 # This is a simple risc-v core based on FPGA  
 
-这个Risc-v核心结构来自于《Digital Design and Computer Architecture RISC-V Edition》的Chapter 7  
+* 这个Risc-v核心结构来自于《Digital Design and Computer Architecture RISC-V Edition》的Chapter 7  
 并用Verilog语言实现，特别针对单周期处理器部分(基本完成)做了部分改进,使得时序更加稳定，并支持  
 绝大多数的RV32I指令集，添加了外部的IO总线模块，使得处理器能够访问外部IO.  
 
