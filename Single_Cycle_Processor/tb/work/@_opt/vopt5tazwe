@@ -1,0 +1,121 @@
+m255
+K3
+13
+cModel Technology
+dE:\Pango Project\Basic Sources\picorv32\tb
+T_opt
+VdS1AffW:Jh>RESKJJmhj21
+04 6 4 work sc_cpu fast 0
+=1-60189531bff8-64d8a418-330-2f00
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OE;O;10.1c;51
+valu
+!s100 `SfanJi_X<d8GdnR]T5H40
+IGU1Z[g8Id_c^6@QIM4S?M1
+VJ:FXmfJUi8FM54ea8C:Mj1
+Z0 dE:\Pango Project\Single_Cycle_Processor\tb
+w1691830918
+8E:/Pango Project/Single_Cycle_Processor/datapath/alu.v
+FE:/Pango Project/Single_Cycle_Processor/datapath/alu.v
+L0 12
+Z1 OE;L;10.1c;51
+r1
+31
+!s90 -reportprogress|300|-work|work|-vopt|E:/Pango Project/Single_Cycle_Processor/datapath/alu.v|
+Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s108 1691919100.121000
+!s107 E:/Pango Project/Single_Cycle_Processor/datapath/alu.v|
+!i10b 1
+!s85 0
+vctrl
+!s100 zW7KZ;=2z6RkhEaagN1EQ0
+IaOSWcaHGH8`@D?DGi^MF<0
+VB8X[[a5H4b9YIJBKcZInV3
+Z3 dE:\Pango Project\Single_Cycle_Processor\tb
+w1691849342
+8E:/Pango Project/Single_Cycle_Processor/control_unit/ctrl_unit.v
+FE:/Pango Project/Single_Cycle_Processor/control_unit/ctrl_unit.v
+L0 12
+R1
+r1
+31
+!s90 -reportprogress|300|-work|work|-vopt|E:/Pango Project/Single_Cycle_Processor/control_unit/ctrl_unit.v|
+R2
+!s108 1691919100.763000
+!s107 E:/Pango Project/Single_Cycle_Processor/control_unit/ctrl_unit.v|
+!i10b 1
+!s85 0
+vext
+!s100 `WPjZT[1QSBlkhQ5^]8Bl1
+IK?i9dCKZjmS@WmZne?:SB0
+VmJ^<F1G`J8GECWe=nP;=c3
+R3
+w1691829996
+8E:/Pango Project/Single_Cycle_Processor/datapath/ext.v
+FE:/Pango Project/Single_Cycle_Processor/datapath/ext.v
+L0 12
+R1
+r1
+31
+!s90 -reportprogress|300|-work|work|-vopt|E:/Pango Project/Single_Cycle_Processor/datapath/ext.v|
+R2
+!s108 1691919100.371000
+!s107 E:/Pango Project/Single_Cycle_Processor/datapath/ext.v|
+!i10b 1
+!s85 0
+vpc
+!s100 h4F^l9]e7nd5cl4<hTkO^3
+IdZVZn^Lg=lXfdWR2FeD6e1
+VGITXha<biV9^TYN67YO:O3
+R3
+w1691919026
+8E:/Pango Project/Single_Cycle_Processor/datapath/pc.v
+FE:/Pango Project/Single_Cycle_Processor/datapath/pc.v
+L0 13
+R1
+r1
+31
+!s90 -reportprogress|300|-work|work|-vopt|E:/Pango Project/Single_Cycle_Processor/datapath/pc.v|
+R2
+!s108 1691919100.559000
+!s107 E:/Pango Project/Single_Cycle_Processor/datapath/pc.v|
+!i10b 1
+!s85 0
+vRegFile
+!s100 =?GWH5^O?P[RB@PYX?3^P2
+ITiE9XdnU6GBjC?dLGd_kV2
+V5KSlPbd0EzOFjXO]QaTiz0
+R3
+w1691828241
+8E:/Pango Project/Single_Cycle_Processor/datapath/RegFile.v
+FE:/Pango Project/Single_Cycle_Processor/datapath/RegFile.v
+L0 12
+R1
+r1
+31
+!s90 -reportprogress|300|-work|work|-vopt|E:/Pango Project/Single_Cycle_Processor/datapath/RegFile.v|
+R2
+n@reg@file
+!s108 1691919099.851000
+!s107 E:/Pango Project/Single_Cycle_Processor/datapath/RegFile.v|
+!i10b 1
+!s85 0
+vsc_cpu
+Ic9;@[Z5zFcXmScn2_kLZ`1
+VdO]kI:8Y6bXTLb44X1A7G1
+R3
+w1691919156
+8E:/Pango Project/Single_Cycle_Processor/top_cpu/Sc_Cpu.v
+FE:/Pango Project/Single_Cycle_Processor/top_cpu/Sc_Cpu.v
+L0 13
+R1
+r1
+31
+R2
+!i10b 1
+!s100 `LgOQCENNd_=^R3eSBh?32
+!s85 0
+!s108 1691919164.413000
+!s107 E:/Pango Project/Single_Cycle_Processor/top_cpu/Sc_Cpu.v|
+!s90 -reportprogress|300|-work|work|-vopt|E:/Pango Project/Single_Cycle_Processor/top_cpu/Sc_Cpu.v|
