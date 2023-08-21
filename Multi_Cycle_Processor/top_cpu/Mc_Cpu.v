@@ -61,7 +61,7 @@ wire	[4:0]		a1,a2,a3;
 
 wire	[31:0]		result;
 //---------PRO_START_ADDR----//
-localparam	PC_START =32'h0040_0000;
+localparam	PC_START =32'h0040_0000 -'d4;
 //---------------------------//
 
 assign a1 =instr[19:15];
@@ -80,14 +80,12 @@ always @(posedge clk or negedge sys_rst_n)
 		srcB_reg <='d0;
 		aluOut <='d0;
 		mem_data <='d0;
-		zero_regi <=1'b0;
 	end
 	else begin
 		srcA_reg <=rd1;
 		srcB_reg <=rd2;
 		aluOut <=aluRes;
 		mem_data <=mem_rdata;
-		zero_regi <=zero;
 		if(irWrite) begin
 			instr <=mem_rdata;
 			Oldpc <=pc;
@@ -140,7 +138,7 @@ ctrl ctrl_dut(
 	.sys_rst_n	(sys_rst_n),
 
 	.instr		(instr),
-	.zero		(zero_regi),
+	.zero		(zero),
 	.pcWrite	(pcWrite),
 	.adrSrc		(adrSrc),
 	.mem_we		(mem_we),

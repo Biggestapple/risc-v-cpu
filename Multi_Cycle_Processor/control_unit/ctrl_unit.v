@@ -40,8 +40,8 @@ module ctrl(
 wire	[6:0]	op;
 wire	[2:0]	funct3;
 wire	[6:0]	funct7;
-wire	pcWrite_w;
-reg		pcWrite_a,pcWrite_f;
+//wire		pcWrite_w;
+//reg		pcWrite_a,pcWrite_f;
 
 reg		[4:0]		state;
 reg		[1:0]		aluOp;
@@ -104,8 +104,8 @@ always @(posedge clk or negedge sys_rst_n)
 		reg_w <=1'b0;
 		pcUpdate <=1'b0;
 		mem_we <=1'b0;
-		branch <=1'b0;
 		irWrite <=1'b0;
+		branch <=1'b0;
 		case(state)
 			IDLE:
 				if(!halt)
@@ -115,7 +115,6 @@ always @(posedge clk or negedge sys_rst_n)
 					//Avoid latch 
 			FETCH:begin
 				//Fetch the data from memory at the address hold on pc
-				valid <=1'b1;
 				//CPU is stable
 				adrSrc 	<=1'b0;
 				aluSrcA <=2'b00;
@@ -128,8 +127,8 @@ always @(posedge clk or negedge sys_rst_n)
 				state <=MEM_RRDY;
 			end
 			MEM_RRDY:begin
-				branch <=1'b0;
 				//No more why :) 
+				valid <=1'b1;
 				if(mem_rdy) begin
 					valid <=1'b0;
 					state <=MEM_DY;
@@ -145,25 +144,26 @@ always @(posedge clk or negedge sys_rst_n)
 				aluSrcA <=2'b01;
 				aluSrcB <=2'b01;
 				aluOp <=2'b00;
-				case(funct3)
-					3'b000:
-						comCtr <=2'b00;		//beq
-					3'b001:
-						comCtr <=2'b01;		//bne
-					3'b100:
-						comCtr <=2'b10;		//blt
-					3'b101:
-						comCtr <=2'b11;		//bge
-					default:
-						comCtr <=2'b00;
-				endcase
 				case(op)
 					LW,SW:
 						state <=MEM_ADR;
 					RTYPE:
 						state <=EXECUTE_R;
-					BTYPE:
-						state <=EXECUTE_B;
+					BTYPE:begin
+							state <=EXECUTE_B;
+							case(funct3)
+								3'b000:
+									comCtr <=2'b00;		//beq
+								3'b001:
+									comCtr <=2'b01;		//bne
+								3'b100:
+									comCtr <=2'b10;		//blt
+								3'b101:
+									comCtr <=2'b11;		//bge
+							default:
+									comCtr <=comCtr;
+							endcase
+						end
 					JAL:
 						state <=EXECUTE_JAL;
 					ITYPE:
@@ -321,7 +321,7 @@ always @(*) begin
 end
 
 //Jump instruction logic
-assign pcWrite =(zero && branch)^pcUpdate;
+assign pcWrite =((zero && branch)^pcUpdate);
 //May be posedge ?
 /*
 always @(posedge clk or sys_rst_n)

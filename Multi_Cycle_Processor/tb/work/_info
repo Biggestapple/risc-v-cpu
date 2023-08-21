@@ -18,7 +18,7 @@ Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
 !s85 0
 !s100 miI^GCG5lmBie?]8EEX5h0
 !s90 -reportprogress|300|-work|work|-vopt|E:/Pango Project/Multi_Cycle_Processor/datapath/alu.v|
-!s108 1692597122.929000
+!s108 1692617941.557000
 !s107 E:/Pango Project/Multi_Cycle_Processor/datapath/alu.v|
 !i10b 1
 vcompu
@@ -36,43 +36,43 @@ R2
 !s85 0
 !s100 58Nl?^ShOFLAm@X7:@ezH1
 !s90 -reportprogress|300|-work|work|-vopt|E:/Pango Project/Multi_Cycle_Processor/datapath/compu.v|
-!s108 1692597123.106000
+!s108 1692617941.727000
 !s107 E:/Pango Project/Multi_Cycle_Processor/datapath/compu.v|
 !i10b 1
 vctrl
 V07XmX77z=A<m6<:gZi8UL1
 r1
 31
-I3QQQfghncFLUDSMF5P^Cz2
+IcJdJL``ezo?k_6m[@1om`1
 R3
-w1692597047
+w1692617780
 8E:/Pango Project/Multi_Cycle_Processor/control_unit/ctrl_unit.v
 FE:/Pango Project/Multi_Cycle_Processor/control_unit/ctrl_unit.v
 L0 14
 R1
 R2
 !s85 0
-!s100 BeKG7Mee<f4gPTWg]9Y>j2
+!s100 70Wl?DD^3EF1g_E;5Li422
 !s90 -reportprogress|300|-work|work|-vopt|E:/Pango Project/Multi_Cycle_Processor/control_unit/ctrl_unit.v|
 !i10b 1
-!s108 1692597123.575000
+!s108 1692617942.412000
 !s107 E:/Pango Project/Multi_Cycle_Processor/control_unit/ctrl_unit.v|
 vext
 V=c^G>UY<Eo01RAOCj0oj>2
 r1
 !s85 0
 31
-Il01:6Tmg8MEfiQAgieMR:2
+I69Pj6]2kFm9c@nHDCB6@=3
 R3
-w1692170832
+w1692617519
 8E:/Pango Project/Multi_Cycle_Processor/datapath/ext.v
 FE:/Pango Project/Multi_Cycle_Processor/datapath/ext.v
 L0 13
 R1
 R2
-!s100 0N?eO`oe8MZ>L3:JL<RJj2
+!s100 dh;B@WZX@`lmQQmUO1c381
 !s90 -reportprogress|300|-work|work|-vopt|E:/Pango Project/Multi_Cycle_Processor/datapath/ext.v|
-!s108 1692597123.288000
+!s108 1692617941.981000
 !s107 E:/Pango Project/Multi_Cycle_Processor/datapath/ext.v|
 !i10b 1
 vIO
@@ -90,7 +90,7 @@ R2
 n@i@o
 !s100 CodXkegla4zH>kBZ_D2j73
 !s90 -reportprogress|300|-work|work|-vopt|E:/Pango Project/Multi_Cycle_Processor/top_cpu/Io.v|
-!s108 1692597122.800000
+!s108 1692617941.426000
 !s107 E:/Pango Project/Multi_Cycle_Processor/top_cpu/Io.v|
 !i10b 1
 !s85 0
@@ -98,9 +98,9 @@ vmc_cpu
 VD0BA5noQC8z9BjMTQi8Ff2
 r1
 31
-IiOb^oYIc9BD6YcCR_Bd@F3
+IPAGF`^l78`GDN6HdW2X@_1
 R3
-w1692597109
+w1692617935
 8E:/Pango Project/Multi_Cycle_Processor/top_cpu/Mc_Cpu.v
 FE:/Pango Project/Multi_Cycle_Processor/top_cpu/Mc_Cpu.v
 L0 12
@@ -108,8 +108,8 @@ R1
 R2
 !s85 0
 !s90 -reportprogress|300|-work|work|-vopt|E:/Pango Project/Multi_Cycle_Processor/top_cpu/Mc_Cpu.v|
-!s100 <7AdYEO0ikGTzQG97XUO=3
-!s108 1692597122.472000
+!s100 K549?K3AaG>1eSNXb3_<l2
+!s108 1692617941.094000
 !s107 E:/Pango Project/Multi_Cycle_Processor/top_cpu/Mc_Cpu.v|
 !i10b 1
 vRegFile
@@ -128,7 +128,7 @@ n@reg@file
 !s85 0
 !s100 mZ?kiV>DzYfU]@VO0S=De2
 !s90 -reportprogress|300|-work|work|-vopt|E:/Pango Project/Multi_Cycle_Processor/datapath/RegFile.v|
-!s108 1692597123.416000
+!s108 1692617942.111000
 !s107 E:/Pango Project/Multi_Cycle_Processor/datapath/RegFile.v|
 !i10b 1
 vsoc_ez_tb
@@ -146,6 +146,6 @@ R2
 !s85 0
 !s100 @h;D@NQ9=cM1[JoX1K[[A0
 !s90 -reportprogress|300|-work|work|-vopt|E:/Pango Project/Multi_Cycle_Processor/tb/soc_mez_tb.v|
-!s108 1692597122.666000
+!s108 1692617941.285000
 !s107 E:/Pango Project/Multi_Cycle_Processor/tb/soc_mez_tb.v|
 !i10b 1
