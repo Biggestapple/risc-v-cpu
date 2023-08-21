@@ -1,0 +1,151 @@
+m255
+K3
+13
+cModel Technology
+dE:\Pango Project\Single_Cycle_Processor\tb
+valu
+VD<m;_[QJMBZI2T_:hI<bH2
+r1
+31
+I76?hGJ5OHI>JB1A`D[?IB1
+Z0 dE:\Pango Project\Multi_Cycle_Processor\tb
+w1692170847
+8E:/Pango Project/Multi_Cycle_Processor/datapath/alu.v
+FE:/Pango Project/Multi_Cycle_Processor/datapath/alu.v
+L0 12
+Z1 OE;L;10.1c;51
+Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s85 0
+!s100 miI^GCG5lmBie?]8EEX5h0
+!s90 -reportprogress|300|-work|work|-vopt|E:/Pango Project/Multi_Cycle_Processor/datapath/alu.v|
+!s108 1692597122.929000
+!s107 E:/Pango Project/Multi_Cycle_Processor/datapath/alu.v|
+!i10b 1
+vcompu
+V:kWkei_j@2iUGYQk^R[450
+r1
+31
+Ih>oW4;EN3kFe>@mnOSNEY0
+Z3 dE:\Pango Project\Multi_Cycle_Processor\tb
+w1692170841
+8E:/Pango Project/Multi_Cycle_Processor/datapath/compu.v
+FE:/Pango Project/Multi_Cycle_Processor/datapath/compu.v
+L0 12
+R1
+R2
+!s85 0
+!s100 58Nl?^ShOFLAm@X7:@ezH1
+!s90 -reportprogress|300|-work|work|-vopt|E:/Pango Project/Multi_Cycle_Processor/datapath/compu.v|
+!s108 1692597123.106000
+!s107 E:/Pango Project/Multi_Cycle_Processor/datapath/compu.v|
+!i10b 1
+vctrl
+V07XmX77z=A<m6<:gZi8UL1
+r1
+31
+I3QQQfghncFLUDSMF5P^Cz2
+R3
+w1692597047
+8E:/Pango Project/Multi_Cycle_Processor/control_unit/ctrl_unit.v
+FE:/Pango Project/Multi_Cycle_Processor/control_unit/ctrl_unit.v
+L0 14
+R1
+R2
+!s85 0
+!s100 BeKG7Mee<f4gPTWg]9Y>j2
+!s90 -reportprogress|300|-work|work|-vopt|E:/Pango Project/Multi_Cycle_Processor/control_unit/ctrl_unit.v|
+!i10b 1
+!s108 1692597123.575000
+!s107 E:/Pango Project/Multi_Cycle_Processor/control_unit/ctrl_unit.v|
+vext
+V=c^G>UY<Eo01RAOCj0oj>2
+r1
+!s85 0
+31
+Il01:6Tmg8MEfiQAgieMR:2
+R3
+w1692170832
+8E:/Pango Project/Multi_Cycle_Processor/datapath/ext.v
+FE:/Pango Project/Multi_Cycle_Processor/datapath/ext.v
+L0 13
+R1
+R2
+!s100 0N?eO`oe8MZ>L3:JL<RJj2
+!s90 -reportprogress|300|-work|work|-vopt|E:/Pango Project/Multi_Cycle_Processor/datapath/ext.v|
+!s108 1692597123.288000
+!s107 E:/Pango Project/Multi_Cycle_Processor/datapath/ext.v|
+!i10b 1
+vIO
+I;jk`k5ia49[[8TnIHB=AQ1
+VRaXVjdR2_kfoJWUl2bOPH3
+R3
+w1692063117
+8E:/Pango Project/Multi_Cycle_Processor/top_cpu/Io.v
+FE:/Pango Project/Multi_Cycle_Processor/top_cpu/Io.v
+L0 12
+R1
+r1
+31
+R2
+n@i@o
+!s100 CodXkegla4zH>kBZ_D2j73
+!s90 -reportprogress|300|-work|work|-vopt|E:/Pango Project/Multi_Cycle_Processor/top_cpu/Io.v|
+!s108 1692597122.800000
+!s107 E:/Pango Project/Multi_Cycle_Processor/top_cpu/Io.v|
+!i10b 1
+!s85 0
+vmc_cpu
+VD0BA5noQC8z9BjMTQi8Ff2
+r1
+31
+IiOb^oYIc9BD6YcCR_Bd@F3
+R3
+w1692597109
+8E:/Pango Project/Multi_Cycle_Processor/top_cpu/Mc_Cpu.v
+FE:/Pango Project/Multi_Cycle_Processor/top_cpu/Mc_Cpu.v
+L0 12
+R1
+R2
+!s85 0
+!s90 -reportprogress|300|-work|work|-vopt|E:/Pango Project/Multi_Cycle_Processor/top_cpu/Mc_Cpu.v|
+!s100 <7AdYEO0ikGTzQG97XUO=3
+!s108 1692597122.472000
+!s107 E:/Pango Project/Multi_Cycle_Processor/top_cpu/Mc_Cpu.v|
+!i10b 1
+vRegFile
+V5KSlPbd0EzOFjXO]QaTiz0
+r1
+31
+IlTUzBcWTCCCa^ldIZDGVn1
+R3
+w1692170820
+8E:/Pango Project/Multi_Cycle_Processor/datapath/RegFile.v
+FE:/Pango Project/Multi_Cycle_Processor/datapath/RegFile.v
+L0 12
+R1
+R2
+n@reg@file
+!s85 0
+!s100 mZ?kiV>DzYfU]@VO0S=De2
+!s90 -reportprogress|300|-work|work|-vopt|E:/Pango Project/Multi_Cycle_Processor/datapath/RegFile.v|
+!s108 1692597123.416000
+!s107 E:/Pango Project/Multi_Cycle_Processor/datapath/RegFile.v|
+!i10b 1
+vsoc_ez_tb
+VMd]MXLY^6ig>58M=[6Hea2
+r1
+31
+IY40o@GOR>kSid5Wk2fc7=2
+R3
+w1692590815
+8E:/Pango Project/Multi_Cycle_Processor/tb/soc_mez_tb.v
+FE:/Pango Project/Multi_Cycle_Processor/tb/soc_mez_tb.v
+L0 12
+R1
+R2
+!s85 0
+!s100 @h;D@NQ9=cM1[JoX1K[[A0
+!s90 -reportprogress|300|-work|work|-vopt|E:/Pango Project/Multi_Cycle_Processor/tb/soc_mez_tb.v|
+!s108 1692597122.666000
+!s107 E:/Pango Project/Multi_Cycle_Processor/tb/soc_mez_tb.v|
+!i10b 1

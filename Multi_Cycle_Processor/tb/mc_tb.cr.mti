@@ -1,0 +1,50 @@
+{E:/Pango Project/Multi_Cycle_Processor/datapath/ext.v} {1 {vlog -work work -vopt {E:/Pango Project/Multi_Cycle_Processor/datapath/ext.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ext
+
+Top level modules:
+	ext
+
+} {} {}} {E:/Pango Project/Multi_Cycle_Processor/top_cpu/Mc_Cpu.v} {1 {vlog -work work -vopt {E:/Pango Project/Multi_Cycle_Processor/top_cpu/Mc_Cpu.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module mc_cpu
+
+Top level modules:
+	mc_cpu
+
+} {} {}} {E:/Pango Project/Multi_Cycle_Processor/datapath/RegFile.v} {1 {vlog -work work -vopt {E:/Pango Project/Multi_Cycle_Processor/datapath/RegFile.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module RegFile
+
+Top level modules:
+	RegFile
+
+} {} {}} {E:/Pango Project/Multi_Cycle_Processor/datapath/alu.v} {1 {vlog -work work -vopt {E:/Pango Project/Multi_Cycle_Processor/datapath/alu.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} {E:/Pango Project/Multi_Cycle_Processor/top_cpu/Io.v} {1 {vlog -work work -vopt {E:/Pango Project/Multi_Cycle_Processor/top_cpu/Io.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module IO
+
+Top level modules:
+	IO
+
+} {} {}} {E:/Pango Project/Multi_Cycle_Processor/tb/soc_mez_tb.v} {1 {vlog -work work -vopt {E:/Pango Project/Multi_Cycle_Processor/tb/soc_mez_tb.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module soc_ez_tb
+
+Top level modules:
+	soc_ez_tb
+
+} {} {}} {E:/Pango Project/Multi_Cycle_Processor/datapath/compu.v} {1 {vlog -work work -vopt {E:/Pango Project/Multi_Cycle_Processor/datapath/compu.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module compu
+
+Top level modules:
+	compu
+
+} {} {}}

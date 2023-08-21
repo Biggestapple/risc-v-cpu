@@ -24,7 +24,7 @@ module mc_cpu(
 	output		valid,
 	output		halt,
 	//This signal will indicate that the CPU has occurred with fatal ERROR
-	output		debug_port
+	output		[3:0]		debug_port
 	//This port will indicate the CPU's condition
 );
 //The Soc internal nonarchitectural register declare//
@@ -34,6 +34,7 @@ reg		[31:0]		pc;
 reg		[31:0]		srcA_reg,srcB_reg;
 reg		[31:0]		aluOut;
 reg		[31:0]		mem_data;
+reg		zero_regi;
 //The Soc internal connection						//
 wire	irWrite,adrSrc;
 
@@ -59,7 +60,8 @@ wire	[31:0]		wd;
 wire	[4:0]		a1,a2,a3;
 
 wire	[31:0]		result;
-
+//---------PRO_START_ADDR----//
+localparam	PC_START =32'h0040_0000;
 //---------------------------//
 
 assign a1 =instr[19:15];
@@ -78,12 +80,14 @@ always @(posedge clk or negedge sys_rst_n)
 		srcB_reg <='d0;
 		aluOut <='d0;
 		mem_data <='d0;
+		zero_regi <=1'b0;
 	end
 	else begin
 		srcA_reg <=rd1;
 		srcB_reg <=rd2;
 		aluOut <=aluRes;
 		mem_data <=mem_rdata;
+		zero_regi <=zero;
 		if(irWrite) begin
 			instr <=mem_rdata;
 			Oldpc <=pc;
@@ -93,7 +97,7 @@ always @(posedge clk or negedge sys_rst_n)
 //---------PART B-----------//
 always @(posedge clk or negedge sys_rst_n)
 	if(!sys_rst_n)
-		pc <='d0;
+		pc <=PC_START;
 		//The pc_offset 0x0000_0000
 	else if(pcWrite)
 		pc <=pcNext;
@@ -136,7 +140,7 @@ ctrl ctrl_dut(
 	.sys_rst_n	(sys_rst_n),
 
 	.instr		(instr),
-	.zero		(zero),
+	.zero		(zero_regi),
 	.pcWrite	(pcWrite),
 	.adrSrc		(adrSrc),
 	.mem_we		(mem_we),
