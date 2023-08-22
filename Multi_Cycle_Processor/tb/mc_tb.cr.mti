@@ -1,16 +1,9 @@
-{E:/Pango Project/Multi_Cycle_Processor/control_unit/ctrl_unit.v} {1 {vlog -work work -vopt {E:/Pango Project/Multi_Cycle_Processor/control_unit/ctrl_unit.v}
+{E:/Pango Project/Multi_Cycle_Processor/top_cpu/Mc_Cpu.v} {1 {vlog -work work -vopt {E:/Pango Project/Multi_Cycle_Processor/top_cpu/Mc_Cpu.v}
 Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
--- Compiling module ctrl
+-- Compiling module mc_cpu
 
 Top level modules:
-	ctrl
-
-} {} {}} {E:/Pango Project/Multi_Cycle_Processor/datapath/ext.v} {1 {vlog -work work -vopt {E:/Pango Project/Multi_Cycle_Processor/datapath/ext.v}
-Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
--- Compiling module ext
-
-Top level modules:
-	ext
+	mc_cpu
 
 } {} {}} {E:/Pango Project/Multi_Cycle_Processor/datapath/RegFile.v} {1 {vlog -work work -vopt {E:/Pango Project/Multi_Cycle_Processor/datapath/RegFile.v}
 Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012

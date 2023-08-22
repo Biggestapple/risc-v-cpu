@@ -106,6 +106,7 @@ always @(posedge clk or negedge sys_rst_n)
 		mem_we <=1'b0;
 		irWrite <=1'b0;
 		branch <=1'b0;
+		valid <=1'b0;
 		case(state)
 			IDLE:
 				if(!halt)
@@ -130,7 +131,6 @@ always @(posedge clk or negedge sys_rst_n)
 				//No more why :) 
 				valid <=1'b1;
 				if(mem_rdy) begin
-					valid <=1'b0;
 					state <=MEM_DY;
 					irWrite <=1'b1;
 				end
@@ -237,10 +237,7 @@ always @(posedge clk or negedge sys_rst_n)
 				//From aluOut
 				adrSrc <=1'b1;
 				mem_we <=1'b1;
-				if(mem_rdy)
-					state <=FETCH;
-				else 
-					state <=state;
+				state <=FETCH;
 			end
 			MEM_ADR:begin
 				aluSrcA <=2'b10;

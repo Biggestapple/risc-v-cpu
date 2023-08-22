@@ -70,7 +70,7 @@ end
 0x00400034  0xfe1ff06f  jal x0,0xffffffe0            20   	j	LOOP
 */
 initial begin
-	mem_regi[0] <= 32'h f0000293; //
+	mem_regi[0] <= 32'h 00100293; //
 	mem_regi[1] <= 32'h 00000313; //
 	mem_regi[2] <= 32'h 01000393; //
 	mem_regi[3] <= 32'h 00000e13; //
@@ -107,6 +107,9 @@ always @(posedge sys_clk or negedge sys_rst_n)
 		if(valid) begin
 			mem_rdata <=mem_regi[(mem_addr -32'h0040_0000) >>2];
 			mem_rdy <=1'b1;
+		end
+		if(mem_we) begin
+			mem_regi[mem_addr] <=mem_wdata;
 		end
 	end
 endmodule
